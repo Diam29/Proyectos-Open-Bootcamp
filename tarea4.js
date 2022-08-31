@@ -1,0 +1,10 @@
+let nombre = 'Diamela';
+let apellido = 'Villalba';
+let estudiante = ` ${nombre}  ${apellido} `;
+let estudianteMayus = estudiante.toUpperCase();
+let estudianteMinus = estudiante.toLowerCase();
+let numLetras = estudiante.length;
+let primerLetra = nombre.charAt([0]);
+let ultminaLetra = apellido.charAt(apellido.length - 1);
+let eliminarEspacios = estudiante.trim().length;
+let boolean = estudiante.includes(`${nombre}`);
