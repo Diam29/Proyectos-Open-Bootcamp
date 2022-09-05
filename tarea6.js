@@ -10,7 +10,7 @@ const peliculas = [
     { titulo: 'Desobediencia', director: 'Sebastián Lelio', fecha: 2017 }
 ]
 const pelisPost = peliculas.filter((valor => valor.fecha > 2010))
-console.log(pelisPost);
+console.log(pelisPost)
 
 const directores = peliculas.map(dir => dir.director)
 console.log(directores)
